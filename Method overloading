@@ -1,1 +1,27 @@
+Method Overloading: Same class but it will have different Parameters
+
+package Practices;
+
+class display{
+	void sum(int a, int d)
+	{
+		System.out.println(a+d);
+	}
+	void sum(int a,int d,int b)
+	{
+		System.out.println(a+d+b);
+	}
+}
+
+
+public class overloading {
+
+	public static void main(String[] args) {
+		display dp=new display();
+		dp.sum(12, 40);
+		dp.sum(10, 23, 9);
+		
+	}
+
+}
 
