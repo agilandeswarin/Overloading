@@ -1,5 +1,6 @@
-Method Overloading: Same class but it will have different Parameters
+Method Overloading: Same class but it will have different Parameters.
 
+PROGRAM:
 package Practices;
 
 class display{
